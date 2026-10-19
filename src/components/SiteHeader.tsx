@@ -71,7 +71,8 @@ export default function SiteHeader() {
   const closeDesktop = () => setDesktopServicesOpen(false);
 
   return (
-    <><Ribbon /><AppBar
+   
+    <AppBar
       position="sticky"
       elevation={0}
       onKeyDown={(event) => {
@@ -79,7 +80,7 @@ export default function SiteHeader() {
           closeDesktop();
           closeMobile();
         }
-      } }
+      }}
       sx={{
         bgcolor: 'rgba(247,247,242,.97)',
         color: 'text.primary',
@@ -90,7 +91,7 @@ export default function SiteHeader() {
       }}
     >
       <Container maxWidth="lg">
-
+      <Ribbon/>
         <Toolbar
           disableGutters
           sx={{
@@ -191,22 +192,27 @@ export default function SiteHeader() {
                 if (!event.currentTarget.contains(event.relatedTarget)) {
                   closeDesktop();
                 }
-              } }
+              }}
               sx={{ position: 'static' }}
             >
               <Button
                 color="inherit"
                 aria-haspopup="true"
                 aria-expanded={desktopServicesOpen}
-                onClick={() => setDesktopServicesOpen((current) => !current)}
+                onClick={() =>
+                  setDesktopServicesOpen((current) => !current)
+                }
                 onFocus={() => setDesktopServicesOpen(true)}
-                endIcon={<ExpandMoreRoundedIcon
-                  sx={{
-                    transition: 'transform 180ms ease',
-                    transform: desktopServicesOpen
-                      ? 'rotate(180deg)'
-                      : 'rotate(0deg)',
-                  }} />}
+                endIcon={
+                  <ExpandMoreRoundedIcon
+                    sx={{
+                      transition: 'transform 180ms ease',
+                      transform: desktopServicesOpen
+                        ? 'rotate(180deg)'
+                        : 'rotate(0deg)',
+                    }}
+                  />
+                }
                 sx={{
                   ...navButtonSx,
                   color: desktopServicesOpen
@@ -315,7 +321,7 @@ export default function SiteHeader() {
                         <Stack spacing={0.5}>
                           {group.slugs.map((slug) => {
                             const service = services.find(
-                              (item) => item.slug === slug
+                              (item) => item.slug === slug,
                             );
 
                             if (!service) return null;
@@ -529,7 +535,8 @@ export default function SiteHeader() {
             >
               <ListItemText
                 primary={item.label}
-                primaryTypographyProps={{ fontWeight: 600 }} />
+                primaryTypographyProps={{ fontWeight: 600 }}
+              />
               <ArrowOutwardRoundedIcon sx={{ fontSize: 17, color: '#9C8A7B' }} />
             </ListItemButton>
           ))}
@@ -546,12 +553,14 @@ export default function SiteHeader() {
           >
             <ListItemText
               primary="Services"
-              primaryTypographyProps={{ fontWeight: 700 }} />
+              primaryTypographyProps={{ fontWeight: 700 }}
+            />
             <ExpandMoreRoundedIcon
               sx={{
                 transition: 'transform 180ms ease',
                 transform: mobileServicesOpen ? 'rotate(180deg)' : 'none',
-              }} />
+              }}
+            />
           </ListItemButton>
 
           <Collapse in={mobileServicesOpen} timeout={180} unmountOnExit>
@@ -581,7 +590,7 @@ export default function SiteHeader() {
 
                   {group.slugs.map((slug) => {
                     const service = services.find(
-                      (item) => item.slug === slug
+                      (item) => item.slug === slug,
                     );
 
                     if (!service) return null;
@@ -610,7 +619,8 @@ export default function SiteHeader() {
                             fontSize: 11,
                             lineHeight: 1.5,
                             mt: 0.4,
-                          }} />
+                          }}
+                        />
                       </ListItemButton>
                     );
                   })}
@@ -645,7 +655,8 @@ export default function SiteHeader() {
                 >
                   <ListItemText
                     primary={child.name}
-                    primaryTypographyProps={{ fontSize: 12, fontWeight: 600 }} />
+                    primaryTypographyProps={{ fontSize: 12, fontWeight: 600 }}
+                  />
                 </ListItemButton>
               ))}
             </Box>
@@ -661,7 +672,8 @@ export default function SiteHeader() {
             >
               <ListItemText
                 primary={item.label}
-                primaryTypographyProps={{ fontWeight: 600 }} />
+                primaryTypographyProps={{ fontWeight: 600 }}
+              />
               <ArrowOutwardRoundedIcon sx={{ fontSize: 17, color: '#9C8A7B' }} />
             </ListItemButton>
           ))}
@@ -691,7 +703,7 @@ export default function SiteHeader() {
           </Typography>
         </Box>
       </Drawer>
-    </AppBar></>
+    </AppBar>
   );
 }
 
