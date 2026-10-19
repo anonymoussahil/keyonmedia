@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/[slug]/layout,_N_T_/services/[slug]/[child]/layout,_N_T_/services/[slug]/[child]/page,_N_T_/services/digital-marketing/email-marketing"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/$d$slug/$d$child/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/d072063435089c1a53e5f0e3ec24dee4a3eec43f844d78e26c21acc20613477c/$/services/digital-marketing/email-marketing",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/services/[slug]/[child]/page"
+    },
+    "isFallback": false
+  }
+}

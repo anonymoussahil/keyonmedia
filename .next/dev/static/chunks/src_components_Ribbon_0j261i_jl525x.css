@@ -1,0 +1,103 @@
+/* [project]/src/components/Ribbon.css [app-client] (css) */
+.occasion-ribbon {
+  z-index: 1000;
+  transform-origin: center;
+  color: #fff8f0;
+  background: linear-gradient(135deg, #f47a35, #c85b22);
+  border-top: 1px solid #ffdca0cc;
+  border-bottom: 1px solid #ffdca0cc;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 220px;
+  min-height: 36px;
+  padding: 10px 28px;
+  font-family: inherit;
+  display: flex;
+  position: fixed;
+  top: 28px;
+  right: -52px;
+  transform: rotate(45deg);
+  box-shadow: 0 3px 12px #38353329;
+}
+
+.occasion-ribbon__text {
+  letter-spacing: .65px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.occasion-ribbon__close {
+  width: 22px;
+  height: 22px;
+  color: inherit;
+  cursor: pointer;
+  background: #00000024;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  right: 34px;
+  transform: translateY(-50%);
+}
+
+.occasion-ribbon__close:focus-visible {
+  outline-offset: 3px;
+  outline: 2px solid;
+}
+
+.occasion-ribbon--tricolor {
+  color: #383533;
+  background: linear-gradient(#e8752c 0% 33%, #fff8f0 33% 66%, #337a4a 66% 100%);
+  border-color: #ffffffa6;
+}
+
+.occasion-ribbon--tricolor .occasion-ribbon__text {
+  text-shadow: 0 1px 2px #ffffff40;
+}
+
+@media (max-width: 600px) {
+  .occasion-ribbon {
+    width: 190px;
+    min-height: 32px;
+    padding: 8px 22px;
+    top: 23px;
+    right: -64px;
+  }
+
+  .occasion-ribbon__text {
+    letter-spacing: .35px;
+    font-size: 9px;
+  }
+
+  .occasion-ribbon__close {
+    width: 20px;
+    height: 20px;
+    right: 27px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .occasion-ribbon {
+    animation: .35s ease-out both ribbon-enter;
+  }
+
+  @keyframes ribbon-enter {
+    from {
+      opacity: 0;
+      translate: 12px -8px;
+    }
+
+    to {
+      opacity: 1;
+      translate: 0;
+    }
+  }
+}
+
+/*# sourceMappingURL=src_components_Ribbon_0j261i_jl525x.css.map*/

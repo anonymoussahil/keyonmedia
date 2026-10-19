@@ -1,0 +1,44 @@
+{"timestamp":"00:00:01.723","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:20.180","source":"Server","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:00:20.899","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:21.000","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:00:21.041","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:02:23.237","source":"Server","level":"LOG","message":"✓ Compiled in 186ms"}
+{"timestamp":"00:02:39.719","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
+{"timestamp":"00:02:39.769","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\\u001b[39m\""}
+{"timestamp":"00:03:47.639","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:23:50.854","source":"Server","level":"LOG","message":"✓ Compiled in 274ms"}
+{"timestamp":"00:24:16.152","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:24:16.614","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:24:16.637","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:25:03.198","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
+{"timestamp":"00:25:03.199","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\\u001b[39m\""}
+{"timestamp":"00:28:13.727","source":"Server","level":"LOG","message":"✓ Compiled in 70ms"}
+{"timestamp":"00:28:15.119","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:29:59.277","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:35:02.736","source":"Server","level":"LOG","message":"✓ Compiled in 247ms"}
+{"timestamp":"00:41:30.798","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"00:41:38.127","source":"Browser","level":"ERROR","message":"./src/components/SiteFooter.tsx:9:24\nError: Expression expected\n   7 |   rel=\"noopener noreferrer\"\n   8 | >\n>  9 |   Bhaskara Codex</span><span>Thoughtful communication. Clear creative.</span><Link...\n     |                        ^\n  10 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./src/components/SiteFooter.tsx\n    ./src/app/layout.tsx "}
+{"timestamp":"00:41:38.129","source":"Server","level":"ERROR","message":"[browser] \"./src/components/SiteFooter.tsx:9:24\\nError: Expression expected\\n   7 |   rel=\\\"noopener noreferrer\\\"\\n   8 | >\\n>  9 |   Bhaskara Codex</span><span>Thoughtful communication. Clear creative.</span><Link...\\n     |                        ^\\n  10 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./src/components/SiteFooter.tsx\\n    ./src/app/layout.tsx\" \"\""}
+{"timestamp":"00:42:07.957","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"00:42:20.697","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:42:23.395","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:42:23.416","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:42:23.692","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
+{"timestamp":"00:42:23.817","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\\u001b[39m\""}
+{"timestamp":"00:43:06.764","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:43:16.766","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:43:16.879","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:43:16.885","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:44:10.455","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"00:45:43.357","source":"Server","level":"LOG","message":"✓ Compiled in 103ms"}
+{"timestamp":"00:45:52.650","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:45:52.781","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:45:52.786","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:46:23.463","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:46:24.147","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:46:24.148","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}
+{"timestamp":"00:46:58.217","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:47:09.358","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:47:10.279","source":"Browser","level":"WARN","message":"motion() is deprecated. Use motion.create() instead."}
+{"timestamp":"00:47:10.279","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mmotion() is deprecated. Use motion.create() instead.\\u001b[39m\" \"\\u001b[2m(src/components/HomeExperience.tsx:23:25)\\u001b[22m\""}

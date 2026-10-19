@@ -1,0 +1,86 @@
+/* [project]/src/app/generated-theme.css [app-client] (css) */
+:root {
+  --color-orange: #f47a35;
+  --color-orange-hover: #d96325;
+  --color-ivory: #fff8f0;
+  --color-peach: #f4dccb;
+  --color-olive: #596442;
+  --color-sage: #dce5c7;
+  --color-terracotta: #a95735;
+  --color-charcoal: #383533;
+  --color-dark-brown: #49382f;
+  --color-white: #fff;
+  --color-muted-text: #655d55;
+  --color-border: #e8ded3;
+  --color-surface: #fff;
+  --color-soft-peach: #f8ede4;
+  --color-sage-text: #455033;
+  --layout-content-max-width: 1180px;
+  --layout-page-gutter: 24px;
+  --layout-section-padding-desktop: 100px;
+  --layout-section-padding-mobile: 68px;
+  --layout-card-radius: 12px;
+  --layout-button-radius: 999px;
+  --layout-header-height: 82px;
+  --motion-hover-duration: .18s;
+  --motion-reveal-duration: .65s;
+  --motion-hover-lift: -3px;
+  --font-family: "Poppins", Arial, sans-serif;
+  --font-base-size: 15px;
+  --font-body-line-height: 1.75;
+  --font-heading-weight: 700;
+  --font-body-weight: 400;
+  --font-button-weight: 600;
+  --font-heading-letter-spacing: -.045em;
+  --orange: var(--color-orange);
+  --orange-deep: var(--color-orange-hover);
+  --olive: var(--color-olive);
+  --heading: var(--color-charcoal);
+  --heading-dark: var(--color-charcoal);
+  --charcoal: var(--color-charcoal);
+  --muted: var(--color-muted-text);
+  --cream: var(--color-ivory);
+  --paper: var(--color-surface);
+  --line: var(--color-border);
+  --soft-peach: var(--color-soft-peach);
+  --peach: var(--color-peach);
+  --white: var(--color-white);
+  --font-head: var(--font-family);
+  --font-body: var(--font-family);
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-base-size);
+  line-height: var(--font-body-line-height);
+  color: var(--color-charcoal);
+  background: var(--color-ivory);
+}
+
+button, input, textarea, select {
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: var(--layout-content-max-width);
+}
+
+.section-pad, .section {
+  padding-block: var(--layout-section-padding-desktop);
+}
+
+@media (max-width: 680px) {
+  .section-pad, .section {
+    padding-block: var(--layout-section-padding-mobile);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, :before, :after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+  }
+}
+
+/*# sourceMappingURL=src_app_generated-theme_css_1igg3k2-ikub5._.single.css.map*/

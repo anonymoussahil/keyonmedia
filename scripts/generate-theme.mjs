@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const config = JSON.parse(fs.readFileSync(path.join(root, 'config/theme.json'), 'utf8'));
+const kebab = s => s.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`);
+const vars = [];
+for (const [key, value] of Object.entries(config.colors)) vars.push(`  --color-${kebab(key)}: ${value};`);
+for (const [key, value] of Object.entries(config.layout)) vars.push(`  --layout-${kebab(key)}: ${value};`);
+for (const [key, value] of Object.entries(config.motion)) if (typeof value === 'string') vars.push(`  --motion-${kebab(key)}: ${value};`);
+vars.push(`  --font-family: '${config.typography.family}', ${config.typography.fallback};`, `  --font-base-size: ${config.typography.baseSize};`, `  --font-body-line-height: ${config.typography.bodyLineHeight};`, `  --font-heading-weight: ${config.typography.headingWeight};`, `  --font-body-weight: ${config.typography.bodyWeight};`, `  --font-button-weight: ${config.typography.buttonWeight};`, `  --font-heading-letter-spacing: ${config.typography.headingLetterSpacing};`);
+const aliases = `  --orange: var(--color-orange);\n  --orange-deep: var(--color-orange-hover);\n  --olive: var(--color-olive);\n  --heading: var(--color-charcoal);\n  --heading-dark: var(--color-charcoal);\n  --charcoal: var(--color-charcoal);\n  --muted: var(--color-muted-text);\n  --cream: var(--color-ivory);\n  --paper: var(--color-surface);\n  --line: var(--color-border);\n  --soft-peach: var(--color-soft-peach);\n  --peach: var(--color-peach);\n  --white: var(--color-white);\n  --font-head: var(--font-family);\n  --font-body: var(--font-family);`;
+const css = `/* AUTO-GENERATED from config/theme.json. Edit JSON and run npm run theme:generate. */\n:root {\n${vars.join('\n')}\n${aliases}\n}\nbody { font-family: var(--font-family); font-size: var(--font-base-size); line-height: var(--font-body-line-height); color: var(--color-charcoal); background: var(--color-ivory); }\nbutton, input, textarea, select { font-family: var(--font-family); }\n.container { max-width: var(--layout-content-max-width); }\n.section-pad, .section { padding-block: var(--layout-section-padding-desktop); }\n@media (max-width: 680px) { .section-pad, .section { padding-block: var(--layout-section-padding-mobile); } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }\n`;
+fs.writeFileSync(path.join(root, 'src/app/generated-theme.css'), css);
+console.log('Generated src/app/generated-theme.css from config/theme.json');

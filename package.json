@@ -1,0 +1,33 @@
+{
+  "name": "keyon-media-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "theme:generate": "node scripts/generate-theme.mjs",
+    "predev": "npm run theme:generate",
+    "dev": "next dev",
+    "prebuild": "npm run theme:generate",
+    "build": "next build",
+    "prestart": "npm run theme:generate",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.8",
+    "@mui/material-nextjs": "^9.5.0",
+    "framer-motion": "^12.6.2",
+    "next": "^16.4.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}

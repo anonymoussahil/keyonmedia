@@ -1,0 +1,56 @@
+/* AUTO-GENERATED from config/theme.json. Edit JSON and run npm run theme:generate. */
+:root {
+  --color-orange: #F47A35;
+  --color-orange-hover: #D96325;
+  --color-ivory: #FFF8F0;
+  --color-peach: #F4DCCB;
+  --color-olive: #596442;
+  --color-sage: #DCE5C7;
+  --color-terracotta: #A95735;
+  --color-charcoal: #383533;
+  --color-dark-brown: #49382F;
+  --color-white: #FFFFFF;
+  --color-muted-text: #655D55;
+  --color-border: #E8DED3;
+  --color-surface: #FFFFFF;
+  --color-soft-peach: #F8EDE4;
+  --color-sage-text: #455033;
+  --layout-content-max-width: 1180px;
+  --layout-page-gutter: 24px;
+  --layout-section-padding-desktop: 100px;
+  --layout-section-padding-mobile: 68px;
+  --layout-card-radius: 12px;
+  --layout-button-radius: 999px;
+  --layout-header-height: 82px;
+  --motion-hover-duration: 180ms;
+  --motion-reveal-duration: 650ms;
+  --motion-hover-lift: -3px;
+  --font-family: 'Poppins', Arial, sans-serif;
+  --font-base-size: 15px;
+  --font-body-line-height: 1.75;
+  --font-heading-weight: 700;
+  --font-body-weight: 400;
+  --font-button-weight: 600;
+  --font-heading-letter-spacing: -0.045em;
+  --orange: var(--color-orange);
+  --orange-deep: var(--color-orange-hover);
+  --olive: var(--color-olive);
+  --heading: var(--color-charcoal);
+  --heading-dark: var(--color-charcoal);
+  --charcoal: var(--color-charcoal);
+  --muted: var(--color-muted-text);
+  --cream: var(--color-ivory);
+  --paper: var(--color-surface);
+  --line: var(--color-border);
+  --soft-peach: var(--color-soft-peach);
+  --peach: var(--color-peach);
+  --white: var(--color-white);
+  --font-head: var(--font-family);
+  --font-body: var(--font-family);
+}
+body { font-family: var(--font-family); font-size: var(--font-base-size); line-height: var(--font-body-line-height); color: var(--color-charcoal); background: var(--color-ivory); }
+button, input, textarea, select { font-family: var(--font-family); }
+.container { max-width: var(--layout-content-max-width); }
+.section-pad, .section { padding-block: var(--layout-section-padding-desktop); }
+@media (max-width: 680px) { .section-pad, .section { padding-block: var(--layout-section-padding-mobile); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }

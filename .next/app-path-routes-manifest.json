@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/icon.svg/route": "/icon.svg",
+  "/page": "/",
+  "/portfolio/page": "/portfolio",
+  "/robots.txt/route": "/robots.txt",
+  "/services/[slug]/[child]/page": "/services/[slug]/[child]",
+  "/services/[slug]/page": "/services/[slug]",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

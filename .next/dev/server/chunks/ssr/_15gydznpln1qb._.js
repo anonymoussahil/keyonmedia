@@ -1,0 +1,962 @@
+module.exports = [
+(()=>{"use strict";return[
+"[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+function _getRequireWildcardCache(nodeInterop) {
+    if (typeof WeakMap !== "function") return null;
+    var cacheBabelInterop = new WeakMap();
+    var cacheNodeInterop = new WeakMap();
+    return (_getRequireWildcardCache = function(nodeInterop) {
+        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+    })(nodeInterop);
+}
+function _interop_require_wildcard(obj, nodeInterop) {
+    if (!nodeInterop && obj && obj.__esModule) return obj;
+    if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
+        default: obj
+    };
+    var cache = _getRequireWildcardCache(nodeInterop);
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {
+        __proto__: null
+    };
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj){
+        if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+            var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+            if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+            else newObj[key] = obj[key];
+        }
+    }
+    newObj.default = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+exports._ = _interop_require_wildcard;
+}),
+"[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+0 && (module.exports = {
+    default: null,
+    useLinkStatus: null
+});
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    default: function() {
+        return LinkComponent;
+    },
+    useLinkStatus: function() {
+        return _link.useLinkStatus;
+    }
+});
+const _interop_require_wildcard = __turbopack_context__.r("[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-rsc] (ecmascript)");
+const _jsxruntime = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-runtime.js [app-rsc] (ecmascript)");
+const _link = /*#__PURE__*/ _interop_require_wildcard._(__turbopack_context__.r("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)"));
+function LinkComponent(props) {
+    const isLegacyBehavior = props.legacyBehavior;
+    const childIsHostComponent = typeof props.children === 'string' || typeof props.children === 'number' || typeof props.children?.type === 'string';
+    const childIsClientComponent = props.children?.type?.$$typeof === Symbol.for('react.client.reference');
+    if (isLegacyBehavior && !childIsHostComponent && !childIsClientComponent) {
+        if (props.children?.type?.$$typeof === Symbol.for('react.lazy')) {
+            console.error(`Using a Lazy Component as a direct child of \`<Link legacyBehavior>\` from a Server Component is not supported. If you need legacyBehavior, wrap your Lazy Component in a Client Component that renders the Link's \`<a>\` tag.`);
+        } else {
+            console.error(`Using a Server Component as a direct child of \`<Link legacyBehavior>\` is not supported. If you need legacyBehavior, wrap your Server Component in a Client Component that renders the Link's \`<a>\` tag.`);
+        }
+    }
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_link.default, {
+        ...props
+    });
+}
+if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
+    Object.defineProperty(exports.default, '__esModule', {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+}
+}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"use strict";
+
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-rsc] (ecmascript)").vendored['react-rsc'].ReactJsxDevRuntime;
+}),
+"[project]/src/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>RootLayout,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@mui/material-nextjs/v15-appRouter'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/SiteHeader.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteFooter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/SiteFooter.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Providers.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+const siteUrl = 'https://www.keyonmedia.in';
+const metadata = {
+    metadataBase: new URL(siteUrl),
+    title: {
+        default: 'KeyOn Media | Advertising, Marketing & Creative Solutions',
+        template: '%s | KeyOn Media'
+    },
+    description: 'Explore advertising, digital marketing, public relations, outdoor media, creative design and printing services with KeyOn Media Private Limited.',
+    applicationName: 'KeyOn Media',
+    openGraph: {
+        type: 'website',
+        siteName: 'KeyOn Media',
+        title: 'KeyOn Media | Advertising, Marketing & Creative Solutions',
+        description: 'A connected approach to advertising, digital marketing, media and creative services.',
+        url: siteUrl
+    },
+    robots: {
+        index: true,
+        follow: true
+    }
+};
+function RootLayout({ children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
+        lang: "en",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(AppRouterCacheProvider, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                            fileName: "[project]/src/app/layout.tsx",
+                            lineNumber: 53,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                            children: children
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/layout.tsx",
+                            lineNumber: 55,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteFooter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                            fileName: "[project]/src/app/layout.tsx",
+                            lineNumber: 57,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/layout.tsx",
+                    lineNumber: 52,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/layout.tsx",
+                lineNumber: 51,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/app/layout.tsx",
+            lineNumber: 50,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/layout.tsx",
+        lineNumber: 49,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/Providers.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/Providers.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/Providers.tsx", "default");
+}),
+"[project]/src/components/Providers.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/components/Providers.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Providers$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/src/components/SiteFooter.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>SiteFooter
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$services$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/services.ts [app-rsc] (ecmascript)");
+;
+;
+;
+function SiteFooter() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        className: "site-footer",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container footer-top",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "footer-brand",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/",
+                                className: "brand brand-light",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "brand-mark",
+                                        children: [
+                                            "K",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "•"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                                lineNumber: 3,
+                                                columnNumber: 220
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/SiteFooter.tsx",
+                                        lineNumber: 3,
+                                        columnNumber: 190
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "brand-word",
+                                        children: [
+                                            "keyon",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "media"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                                lineNumber: 3,
+                                                columnNumber: 275
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
+                                                children: "PRIVATE LIMITED"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                                lineNumber: 3,
+                                                columnNumber: 293
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/SiteFooter.tsx",
+                                        lineNumber: 3,
+                                        columnNumber: 241
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 145
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                children: "360° marketing and promotion solutions—connecting brand strategy, creative work and media formats."
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 337
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/contact",
+                                className: "text-link",
+                                children: "Start a conversation ↗"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 442
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 115
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                children: "Explore"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 526
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/about",
+                                children: "About us"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 542
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/portfolio",
+                                children: "Our work"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 577
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/contact",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 616
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 521
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                children: "Services"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 663
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$services$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].slice(0, 6).map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: `/services/${s.slug}`,
+                                    children: s.name
+                                }, s.slug, false, {
+                                    fileName: "[project]/src/components/SiteFooter.tsx",
+                                    lineNumber: 3,
+                                    columnNumber: 708
+                                }, this))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 658
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                children: "Get in touch"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 784
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "mailto:keyonmediapl@gmail.com",
+                                children: "keyonmediapl@gmail.com"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 805
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "tel:+919920992393",
+                                children: "+91 99209 92393"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 871
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "tel:+919137706231",
+                                children: "+91 91377 06231"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 918
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "footer-address",
+                                children: [
+                                    "B-006, Kinza Apartment,",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/SiteFooter.tsx",
+                                        lineNumber: 3,
+                                        columnNumber: 1018
+                                    }, this),
+                                    "behind Raj Atlantis, Kanakia Road,",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/SiteFooter.tsx",
+                                        lineNumber: 3,
+                                        columnNumber: 1057
+                                    }, this),
+                                    "Mira Road (East) – 401107"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 3,
+                                columnNumber: 965
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 779
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/SiteFooter.tsx",
+                lineNumber: 3,
+                columnNumber: 77
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container footer-bottom",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: [
+                            "© ",
+                            new Date().getFullYear(),
+                            " KeyOn Media Private Limited"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 1144
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: "Thoughtful communication. Clear creative."
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 1213
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/contact",
+                        children: "Privacy & enquiries"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/SiteFooter.tsx",
+                        lineNumber: 3,
+                        columnNumber: 1267
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/SiteFooter.tsx",
+                lineNumber: 3,
+                columnNumber: 1103
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/SiteFooter.tsx",
+        lineNumber: 3,
+        columnNumber: 45
+    }, this);
+}
+}),
+"[project]/src/components/SiteHeader.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/components/SiteHeader.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/SiteHeader.tsx", "default");
+}),
+"[project]/src/components/SiteHeader.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/components/SiteHeader.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SiteHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/src/lib/services.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "digitalChildServices",
+    ()=>digitalChildServices,
+    "services",
+    ()=>services
+]);
+const services = [
+    {
+        slug: 'print-media',
+        name: 'Print Media Advertising',
+        short: 'Bring your message to readers through print placements planned around your audience and campaign goals.',
+        eyebrow: '01 / Print media',
+        title: 'Make your message impossible to miss in print.',
+        description: 'KeyOn Media helps businesses explore print advertising formats such as newspaper display ads, classified advertising and public notices. We start with your message, audience, publication requirements and timing.',
+        offerings: [
+            'Newspaper display advertisements',
+            'Classified and classified display ads',
+            'Public notices',
+            'Obituary advertisements',
+            'Campaign creative coordination'
+        ],
+        process: [
+            {
+                title: 'Understand the brief',
+                text: 'Clarify the announcement, audience, publication preferences and timing.'
+            },
+            {
+                title: 'Prepare the creative',
+                text: 'Organise the copy and artwork to match the chosen format requirements.'
+            },
+            {
+                title: 'Coordinate placement',
+                text: 'Confirm publication specifications, schedule and final approvals.'
+            }
+        ],
+        metaTitle: 'Print Media Advertising in Mumbai | KeyOn Media',
+        metaDescription: 'Explore newspaper display ads, classified advertising and public notice options with KeyOn Media. Discuss your print media brief and publication requirements.',
+        keyword: 'print media advertising Mumbai',
+        visual: 'print',
+        related: [
+            'public-relations',
+            'creative-design-printing',
+            'outdoor-advertising'
+        ]
+    },
+    {
+        slug: 'public-relations',
+        name: 'Public Relations',
+        short: 'Help your news, product or event reach relevant media audiences with clear, credible communication.',
+        eyebrow: '02 / Public relations',
+        title: 'Put your story in the right conversation.',
+        description: 'From product and service announcements to event coverage, KeyOn Media’s profile includes public relations and online media coverage as part of its communications offering. Scope and publication are subject to editorial decisions and approval.',
+        offerings: [
+            'Press and media coverage coordination',
+            'Product and service publicity',
+            'Event publicity',
+            'Online media coverage planning',
+            'Press material coordination'
+        ],
+        process: [
+            {
+                title: 'Shape the story',
+                text: 'Identify the announcement, key facts, audience and supporting materials.'
+            },
+            {
+                title: 'Prepare media materials',
+                text: 'Organise accurate copy, visuals and contact information for review.'
+            },
+            {
+                title: 'Coordinate outreach',
+                text: 'Discuss suitable outlets and follow up on the agreed scope; coverage is not guaranteed.'
+            }
+        ],
+        metaTitle: 'Public Relations & Media Coverage | KeyOn Media',
+        metaDescription: 'Discuss public relations, product publicity and event media coverage with KeyOn Media. Media placement and editorial coverage are not guaranteed.',
+        keyword: 'public relations agency Mumbai',
+        visual: 'pr',
+        related: [
+            'print-media',
+            'digital-marketing',
+            'events-btl'
+        ]
+    },
+    {
+        slug: 'digital-marketing',
+        name: 'Digital Marketing',
+        short: 'Connect your brand strategy, content and digital channels into a coherent online presence.',
+        eyebrow: '03 / Digital marketing',
+        title: 'Turn your digital presence into a connected experience.',
+        description: 'KeyOn Media’s published service information includes search engine optimisation, social media, content and email marketing, video, web design, app development and search engine marketing. Choose the workstream that fits your business objective.',
+        offerings: [
+            'Search engine optimisation (SEO)',
+            'Social media marketing',
+            'Content marketing',
+            'Email marketing',
+            'Video production',
+            'Website design and development',
+            'App development',
+            'Search engine marketing (SEM)'
+        ],
+        process: [
+            {
+                title: 'Discover',
+                text: 'Understand your audience, offer, current channels and business objective.'
+            },
+            {
+                title: 'Plan',
+                text: 'Choose suitable channels, content themes, deliverables and measurement.'
+            },
+            {
+                title: 'Create and improve',
+                text: 'Review creative work and campaign data, then agree on next improvements.'
+            }
+        ],
+        metaTitle: 'Digital Marketing Services in Mumbai | KeyOn Media',
+        metaDescription: 'Explore SEO, social media, content, email, video, website and search advertising services with KeyOn Media. Start with a clear digital marketing brief.',
+        keyword: 'digital marketing agency Mumbai',
+        visual: 'digital',
+        related: [
+            'creative-design-printing',
+            'public-relations',
+            'outdoor-advertising'
+        ]
+    },
+    {
+        slug: 'radio-advertising',
+        name: 'Radio Advertising',
+        short: 'Plan audio advertising around your campaign message, audience and proposed broadcast schedule.',
+        eyebrow: '04 / Broadcast',
+        title: 'Take your brand message to the airwaves.',
+        description: 'Radio advertising is one of the broadcast formats listed in KeyOn Media’s company profile. Campaign feasibility, station availability, schedules and rates need to be confirmed for each brief.',
+        offerings: [
+            'Radio campaign planning',
+            'Audio ad brief and messaging',
+            'Spot and schedule coordination',
+            'Campaign timing discussion',
+            'Creative production coordination'
+        ],
+        process: [
+            {
+                title: 'Define the audience',
+                text: 'Clarify target listeners, geography, campaign objective and timing.'
+            },
+            {
+                title: 'Develop the message',
+                text: 'Prepare a concise audio brief and agree on creative requirements.'
+            },
+            {
+                title: 'Confirm the plan',
+                text: 'Review station options, availability, schedule and costs before approval.'
+            }
+        ],
+        metaTitle: 'Radio Advertising Services in Mumbai | KeyOn Media',
+        metaDescription: 'Discuss radio advertising, audio campaign planning and broadcast scheduling with KeyOn Media. Station availability and rates require confirmation.',
+        keyword: 'radio advertising Mumbai',
+        visual: 'radio',
+        related: [
+            'tv-advertising',
+            'multiplex-advertising',
+            'digital-marketing'
+        ]
+    },
+    {
+        slug: 'tv-advertising',
+        name: 'TV Advertising',
+        short: 'Explore television advertising formats and coordinate a campaign brief, creative and schedule.',
+        eyebrow: '05 / Broadcast',
+        title: 'Bring your campaign to the television screen.',
+        description: 'Television advertising is included in KeyOn Media’s listed services. The right format depends on campaign goals, target geography, creative specifications, inventory and budget.',
+        offerings: [
+            'Television advertising planning',
+            'Campaign and audience brief',
+            'Creative format coordination',
+            'Schedule and placement discussions',
+            'L-band advertising enquiries'
+        ],
+        process: [
+            {
+                title: 'Set the campaign goal',
+                text: 'Define the message, audience, target geography and flight dates.'
+            },
+            {
+                title: 'Prepare the creative brief',
+                text: 'Align the content with the intended format and technical specifications.'
+            },
+            {
+                title: 'Review availability',
+                text: 'Confirm channel options, inventory, rates and schedule before booking.'
+            }
+        ],
+        metaTitle: 'TV Advertising Services in Mumbai | KeyOn Media',
+        metaDescription: 'Explore television advertising and L-band placement enquiries with KeyOn Media. Confirm campaign formats, inventory and rates before booking.',
+        keyword: 'TV advertising agency Mumbai',
+        visual: 'tv',
+        related: [
+            'radio-advertising',
+            'multiplex-advertising',
+            'outdoor-advertising'
+        ]
+    },
+    {
+        slug: 'multiplex-advertising',
+        name: 'Multiplex Advertising',
+        short: 'Explore cinema advertising placements for campaigns designed around a movie-going audience.',
+        eyebrow: '06 / Cinema',
+        title: 'Put your campaign on the big screen.',
+        description: 'Multiplex and cinema advertising are included in KeyOn Media’s company profile. Available screens, locations, formats and dates vary and should be confirmed before a campaign is promised.',
+        offerings: [
+            'Cinema screen advertising enquiries',
+            'Multiplex campaign planning',
+            'Creative format coordination',
+            'Location and schedule discussions',
+            'Campaign brief development'
+        ],
+        process: [
+            {
+                title: 'Choose the audience',
+                text: 'Discuss location, audience profile, campaign timing and objective.'
+            },
+            {
+                title: 'Prepare the asset',
+                text: 'Confirm duration, aspect ratio, file specifications and approvals.'
+            },
+            {
+                title: 'Check inventory',
+                text: 'Verify participating venues, available dates and commercial terms.'
+            }
+        ],
+        metaTitle: 'Cinema & Multiplex Advertising | KeyOn Media',
+        metaDescription: 'Discuss cinema screen and multiplex advertising options with KeyOn Media. Venue availability, formats and campaign rates require confirmation.',
+        keyword: 'cinema advertising Mumbai',
+        visual: 'cinema',
+        related: [
+            'tv-advertising',
+            'radio-advertising',
+            'outdoor-advertising'
+        ]
+    },
+    {
+        slug: 'outdoor-advertising',
+        name: 'Outdoor Advertising',
+        short: 'Explore out-of-home formats that put your message into the physical spaces your audience uses.',
+        eyebrow: '07 / Out of home',
+        title: 'Make your brand part of the cityscape.',
+        description: 'KeyOn Media’s profile lists outdoor advertising formats including hoardings, bus shelters, bus panels, metro media, mall promotions and society screens. Locations and inventory must be checked against each campaign brief.',
+        offerings: [
+            'Hoardings and billboards',
+            'Bus shelter advertising',
+            'Bus panels and vehicle branding',
+            'Metro advertising',
+            'Mall promotions',
+            'Society and parking screens'
+        ],
+        process: [
+            {
+                title: 'Map the requirement',
+                text: 'Share target areas, audience, campaign dates and budget range.'
+            },
+            {
+                title: 'Shortlist formats',
+                text: 'Compare suitable media types, creative dimensions and placement options.'
+            },
+            {
+                title: 'Confirm inventory',
+                text: 'Verify exact locations, availability, permissions, rates and production timelines.'
+            }
+        ],
+        metaTitle: 'Outdoor Advertising Agency in Mumbai | KeyOn Media',
+        metaDescription: 'Explore hoardings, bus shelters, transit media, mall promotions and screen advertising with KeyOn Media. Confirm locations and inventory for your brief.',
+        keyword: 'outdoor advertising Mumbai',
+        visual: 'outdoor',
+        related: [
+            'railway-advertising',
+            'events-btl',
+            'creative-design-printing'
+        ]
+    },
+    {
+        slug: 'railway-advertising',
+        name: 'Railway Advertising',
+        short: 'Explore railway and transit media formats with campaign locations and inventory confirmed before booking.',
+        eyebrow: '08 / Transit media',
+        title: 'Reach commuters along their journey.',
+        description: 'The company profile lists railway and transit advertising formats such as train branding, route maps, window frames, railway screens, foot-over-bridges and platform boards. Each placement depends on available inventory and applicable permissions.',
+        offerings: [
+            'Train branding enquiries',
+            'Route-map advertising',
+            'Window-frame placements',
+            'Railway screens',
+            'Foot-over-bridge advertising',
+            'Platform boards'
+        ],
+        process: [
+            {
+                title: 'Define route and audience',
+                text: 'Share the preferred geography, commuter audience and campaign dates.'
+            },
+            {
+                title: 'Select formats',
+                text: 'Discuss format suitability, artwork sizes and production requirements.'
+            },
+            {
+                title: 'Verify permissions and stock',
+                text: 'Confirm authorised inventory, availability, approvals, costs and timelines.'
+            }
+        ],
+        metaTitle: 'Railway & Train Advertising | KeyOn Media',
+        metaDescription: 'Explore train branding, railway screens, platform boards and transit advertising with KeyOn Media. Placement availability and permissions require confirmation.',
+        keyword: 'railway advertising Mumbai',
+        visual: 'rail',
+        related: [
+            'outdoor-advertising',
+            'print-media',
+            'events-btl'
+        ]
+    },
+    {
+        slug: 'events-btl',
+        name: 'Events & BTL Marketing',
+        short: 'Plan on-ground brand interactions, mall promotions and activations around your campaign goals.',
+        eyebrow: '09 / Experiences',
+        title: 'Create meaningful brand moments offline.',
+        description: 'Events and below-the-line activities are listed in KeyOn Media’s 360° marketing profile, including mall promotions and on-ground activations. Final execution depends on venue, staffing, permissions and the approved scope.',
+        offerings: [
+            'Mall promotions',
+            'On-ground brand activations',
+            'Event publicity coordination',
+            'Promotional creative coordination',
+            'Campaign logistics discussions'
+        ],
+        process: [
+            {
+                title: 'Set the experience goal',
+                text: 'Clarify audience, message, venue type, timing and desired action.'
+            },
+            {
+                title: 'Plan the activation',
+                text: 'Align staffing, creative, materials, logistics and venue requirements.'
+            },
+            {
+                title: 'Coordinate execution',
+                text: 'Confirm permissions, responsibilities, timelines and reporting expectations.'
+            }
+        ],
+        metaTitle: 'Events & BTL Marketing Services | KeyOn Media',
+        metaDescription: 'Plan mall promotions and on-ground brand activations with KeyOn Media. Discuss audience, venue, campaign logistics and execution requirements.',
+        keyword: 'BTL marketing Mumbai',
+        visual: 'events',
+        related: [
+            'outdoor-advertising',
+            'public-relations',
+            'creative-design-printing'
+        ]
+    },
+    {
+        slug: 'creative-design-printing',
+        name: 'Creative Design & Printing',
+        short: 'Build consistent campaign materials from brand identity and social creatives to print-ready assets.',
+        eyebrow: '10 / Creative studio',
+        title: 'Give every brand touchpoint a clear visual voice.',
+        description: 'KeyOn Media’s profile includes creative design and printing services such as flex banners, brochures, labels, visiting cards, pamphlets, logos, social media posts and offset or digital printing.',
+        offerings: [
+            'Brand identity and logo design',
+            'Social media creatives',
+            'Brochures and pamphlets',
+            'Flex banners',
+            'Labels and stickers',
+            'Visiting cards',
+            'Offset and digital printing'
+        ],
+        process: [
+            {
+                title: 'Understand the brief',
+                text: 'Review the audience, message, brand assets, sizes and production needs.'
+            },
+            {
+                title: 'Design and review',
+                text: 'Prepare creative concepts and refine them through agreed feedback rounds.'
+            },
+            {
+                title: 'Prepare final files',
+                text: 'Confirm artwork dimensions, print specifications, proofs and delivery details.'
+            }
+        ],
+        metaTitle: 'Graphic Design & Printing Services | KeyOn Media',
+        metaDescription: 'Explore logo design, social media creatives, brochures, labels, banners, visiting cards and printing services with KeyOn Media.',
+        keyword: 'graphic design and printing Mumbai',
+        visual: 'creative',
+        related: [
+            'digital-marketing',
+            'print-media',
+            'outdoor-advertising'
+        ]
+    }
+];
+const digitalChildServices = [
+    {
+        slug: 'seo',
+        name: 'Search Engine Optimisation (SEO)',
+        desc: 'Improve the discoverability, structure and usefulness of your website through technical foundations and relevant content.'
+    },
+    {
+        slug: 'social-media-marketing',
+        name: 'Social Media Marketing',
+        desc: 'Plan channel-specific content and creative that fits your brand voice, audience and business goals.'
+    },
+    {
+        slug: 'content-marketing',
+        name: 'Content Marketing',
+        desc: 'Build useful content around customer questions, services and the decisions your audience needs to make.'
+    },
+    {
+        slug: 'email-marketing',
+        name: 'Email Marketing',
+        desc: 'Coordinate relevant email communication with clear audience, consent and campaign goals.'
+    },
+    {
+        slug: 'video-production',
+        name: 'Video Production',
+        desc: 'Shape a video brief, message and creative direction for digital and promotional content.'
+    },
+    {
+        slug: 'web-design',
+        name: 'Website Design',
+        desc: 'Create clear, accessible website experiences with purposeful structure, responsive layouts and strong calls to action.'
+    },
+    {
+        slug: 'web-development',
+        name: 'Website Development',
+        desc: 'Plan and build website functionality around your content, users, performance and maintenance needs.'
+    },
+    {
+        slug: 'app-development',
+        name: 'App Development',
+        desc: 'Define application requirements, key user journeys and an appropriate delivery scope.'
+    },
+    {
+        slug: 'sem',
+        name: 'Search Engine Marketing (SEM)',
+        desc: 'Discuss paid search campaign objectives, targeting, landing pages, budgets and measurement before launch.'
+    }
+];
+}),
+]})(),
+"[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (client reference proxy)", ((__turbopack_context__, module, exports) => {
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+const { createClientModuleProxy } = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+__turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dist/client/app-dir/link.js"));
+}),
+"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", (function(__turbopack_context__){
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=_15gydznpln1qb._.js.map

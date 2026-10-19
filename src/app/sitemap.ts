@@ -1,0 +1,3 @@
+import type { MetadataRoute } from 'next';
+import { services, digitalChildServices } from '@/lib/services';
+export default function sitemap():MetadataRoute.Sitemap {const base='https://www.keyonmedia.in';const main=['','about','portfolio','contact'].map(p=>({url:`${base}${p?`/${p}`:''}`,lastModified:new Date('2026-10-18'),changeFrequency:'monthly' as const,priority:p===''?1:0.7}));const serviceUrls=services.map(s=>({url:`${base}/services/${s.slug}`,lastModified:new Date('2026-10-18'),changeFrequency:'monthly' as const,priority:0.8}));const childUrls=digitalChildServices.map(s=>({url:`${base}/services/digital-marketing/${s.slug}`,lastModified:new Date('2026-10-18'),changeFrequency:'monthly' as const,priority:0.65}));return [...main,...serviceUrls,...childUrls];}

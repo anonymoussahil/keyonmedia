@@ -1,0 +1,9 @@
+{
+  "themeName": "KeyOn Warm Olive",
+  "colors": {"orange":"#F47A35","orangeHover":"#D96325","ivory":"#FFF8F0","peach":"#F4DCCB","olive":"#596442","sage":"#DCE5C7","terracotta":"#A95735","charcoal":"#383533","darkBrown":"#49382F","white":"#FFFFFF","mutedText":"#655D55","border":"#E8DED3","surface":"#FFFFFF","softPeach":"#F8EDE4","sageText":"#455033"},
+  "typography": {"family":"Poppins","fallback":"Arial, sans-serif","weights":[300,400,500,600,700,800],"headingWeight":700,"bodyWeight":400,"buttonWeight":600,"baseSize":"15px","bodyLineHeight":1.75,"headingLetterSpacing":"-0.045em"},
+  "layout": {"contentMaxWidth":"1180px","pageGutter":"24px","sectionPaddingDesktop":"100px","sectionPaddingMobile":"68px","cardRadius":"12px","buttonRadius":"999px","headerHeight":"82px"},
+  "motion": {"enabled":true,"hoverDuration":"180ms","revealDuration":"650ms","hoverLift":"-3px"},
+  "sections": {"pageBackground":"ivory","heroBackground":"ivory","servicesBackgrounds":["sage","ivory"],"aboutBackground":"ivory","portfolioBackground":"sage","insightsBackground":"ivory","contactBackground":"olive","footerBackground":"darkBrown"},
+  "components": {"primaryButtonBackground":"orange","primaryButtonText":"white","secondaryButtonBackground":"ivory","secondaryButtonText":"charcoal","cardBackground":"surface","cardBorder":"border","headingColor":"charcoal","bodyColor":"charcoal","secondaryTextColor":"mutedText","emphasisColor":"orange","smallAccentColor":"terracotta","iconAccentColor":"olive"}
+}

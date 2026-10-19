@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/3l0c7amwd_jwv.js"
+3:"/_next/static/chunks/0v51xiz3ew0qn.js"
+4:"/_next/static/chunks/2a8s6isbfw-zx.js"
+5:I[26321,["$2","$3","$4"],"default"]
+6:I[30824,["$2","$3","$4"],"default"]
+7:I[36852,["$2","$3","$4"],"default"]
+8:I[39756,["$2","$3","$4"],"default"]
+9:I[37457,["$2","$3","$4"],"default"]
+a:I[22016,["$2","$3","$4"],""]
+17:"ViewportBoundary"
+18:I[97367,["$2","$3","$4"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$2","$3","$4"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/_next/static/chunks/2329l4ngdy4gj.css","style"]
+c:X
+f:X
+f:C
+10:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","section",null,{"className":"simple-hero","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"breadcrumb","children":[["$","$La",null,{"href":"/","children":"Home"}],["$","span",null,{"children":"/"}],["$","span",null,{"children":"Contact"}]]}],"$L11","$L12","$L13"]}]}],"$L14"],null,"$L15"]}],"p":"$@16","v":null,"s":"$c"}}]]
+d:[["children",{"s":"contact","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@e","v":"$f","s":"$c"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2329l4ngdy4gj.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3l0c7amwd_jwv.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0v51xiz3ew0qn.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/2a8s6isbfw-zx.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","main",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"container footer-top","children":[["$","div",null,{"className":"footer-brand","children":[["$","$La",null,{"href":"/","className":"brand brand-light","children":[["$","span",null,{"className":"brand-mark","children":["K",["$","span",null,{"children":"•"}]]}],["$","span",null,{"className":"brand-word","children":["keyon",["$","span",null,{"children":"media"}],["$","small",null,{"children":"PRIVATE LIMITED"}]]}]]}],["$","p",null,{"children":"360° marketing and promotion solutions—connecting brand strategy, creative work and media formats."}],["$","$La",null,{"href":"/contact","className":"text-link","children":"Start a conversation ↗"}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Explore"}],["$","$La",null,{"href":"/about","children":"About us"}],["$","$La",null,{"href":"/portfolio","children":"Our work"}],["$","$La",null,{"href":"/contact","children":"Contact"}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Services"}],[["$","$La","print-media",{"href":"/services/print-media","children":"Print Media Advertising"}],["$","$La","public-relations",{"href":"/services/public-relations","children":"Public Relations"}],["$","$La","digital-marketing",{"href":"/services/digital-marketing","children":"Digital Marketing"}],["$","$La","radio-advertising",{"href":"/services/radio-advertising","children":"Radio Advertising"}],["$","$La","tv-advertising",{"href":"/services/tv-advertising","children":"TV Advertising"}],["$","$La","multiplex-advertising",{"href":"/services/multiplex-advertising","children":"Multiplex Advertising"}]]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Get in touch"}],["$","a",null,{"href":"mailto:keyonmediapl@gmail.com","children":"keyonmediapl@gmail.com"}],["$","a",null,{"href":"tel:+919920992393","children":"+91 99209 92393"}],["$","a",null,{"href":"tel:+919137706231","children":"+91 91377 06231"}],["$","p",null,{"className":"footer-address","children":["B-006, Kinza Apartment,",["$","br",null,{}],"behind Raj Atlantis, Kanakia Road,",["$","br",null,{}],"Mira Road (East) – 401107"]}]]}]]}],["$","div",null,{"className":"container footer-bottom","children":[["$","span",null,{"children":["© ",2026," KeyOn Media Private Limited"]}],["$","span",null,{"children":"Thoughtful communication. Clear creative."}],["$","$La",null,{"href":"/contact","children":"Privacy & enquiries"}]]}]]}]]}]}]}]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact KeyOn Media | Discuss Your Campaign | KeyOn Media"}],["$","meta","1",{"name":"description","content":"Contact KeyOn Media Private Limited to discuss advertising, digital marketing, media placements, creative design and printing requirements."}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28"]}]}],null]}],null]}],"p":"$@29","v":null,"s":"$c"}},"a":"$@2a","u":"$@2b","b":"YISgTyVZRz57_I-OTnaP_"}
+2c:I[97367,["$2","$3","$4"],"OutletBoundary"]
+2e:I[27201,["$2","$3","$4"],"IconMark"]
+11:["$","div",null,{"className":"eyebrow","children":[["$","span",null,{"className":"eyebrow-line"}]," LET’S CONNECT"]}]
+12:["$","h1",null,{"children":["Tell us what",["$","br",null,{}],"you’re ",["$","em",null,{"children":"planning."}]]}]
+13:["$","p",null,{"className":"detail-lede","children":"Share your campaign goal, service requirement or creative brief. Reach us directly using the contact details listed in the company profile."}]
+14:["$","section",null,{"className":"section-pad contact-section","children":["$","div",null,{"className":"container contact-grid","children":[["$","div",null,{"className":"contact-panel","children":[["$","div",null,{"className":"eyebrow eyebrow-light","children":"START A CONVERSATION"}],["$","h2",null,{"children":["Let’s make the",["$","br",null,{}],["$","em",null,{"children":"next step clear."}]]}],["$","p",null,{"children":"For a faster discussion, include your preferred service, target location, timing and any budget guidance you can share."}],["$","a",null,{"className":"contact-line","href":"mailto:keyonmediapl@gmail.com","children":[["$","span",null,{"children":"Email"}],["$","b",null,{"children":"keyonmediapl@gmail.com ↗"}]]}],["$","a",null,{"className":"contact-line","href":"tel:+919920992393","children":[["$","span",null,{"children":"Phone"}],["$","b",null,{"children":"+91 99209 92393 ↗"}]]}],["$","a",null,{"className":"contact-line","href":"tel:+919137706231","children":[["$","span",null,{"children":"Phone"}],["$","b",null,{"children":"+91 91377 06231 ↗"}]]}]]}],["$","div",null,{"className":"contact-details","children":[["$","div",null,{"className":"eyebrow","children":"VISIT / WRITE TO US"}],["$","h3",null,{"children":"KeyOn Media Private Limited"}],["$","p",null,{"children":["B-006, Kinza Apartment,",["$","br",null,{}],"Behind Raj Atlantis, Kanakia Road,",["$","br",null,{}],"Mira Road (East) – 401107"]}],["$","div",null,{"className":"contact-map-placeholder","children":[["$","div",null,{"className":"map-grid"}],["$","div",null,{"className":"map-pin","children":"K"}],["$","span",null,{"children":"MIRA ROAD · MAHARASHTRA"}]]}],["$","p",null,{"className":"small-note","children":"Contact and address details are transcribed from the supplied company profile and should be reconfirmed before publication."}],["$","$La",null,{"href":"/services/digital-marketing","className":"text-link","children":"Explore services before you enquire ↗"}]]}]]}]}]
+15:["$","$L2c",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]
+1c:["$","meta","2",{"name":"application-name","content":"KeyOn Media"}]
+1d:["$","meta","3",{"name":"robots","content":"index, follow"}]
+1e:["$","link","4",{"rel":"canonical","href":"https://www.keyonmedia.in/contact"}]
+1f:["$","meta","5",{"property":"og:title","content":"KeyOn Media | Advertising, Marketing & Creative Solutions"}]
+20:["$","meta","6",{"property":"og:description","content":"A connected approach to advertising, digital marketing, media and creative services."}]
+21:["$","meta","7",{"property":"og:url","content":"https://www.keyonmedia.in"}]
+22:["$","meta","8",{"property":"og:site_name","content":"KeyOn Media"}]
+23:["$","meta","9",{"property":"og:type","content":"website"}]
+24:["$","meta","10",{"name":"twitter:card","content":"summary"}]
+25:["$","meta","11",{"name":"twitter:title","content":"KeyOn Media | Advertising, Marketing & Creative Solutions"}]
+26:["$","meta","12",{"name":"twitter:description","content":"A connected approach to advertising, digital marketing, media and creative services."}]
+27:["$","link","13",{"rel":"icon","href":"/icon.svg?icon.02agfirrrqldo.svg","sizes":"any","type":"image/svg+xml"}]
+28:["$","$L2e","14",{}]
+c:300
+2d:null
+2b:true
+c:C
+2a:0
+e:"$undefined"
+b:"$undefined"
+29:"$undefined"
+16:"$undefined"
