@@ -26,7 +26,7 @@ export type Occasion = {
     {
         id: "dussehra-launch-2026",
         month: 10,
-        day: 19,
+        day: 20,
         message: "WE'RE LIVE TODAY!",
         priority: 20,
         theme: "brand",
