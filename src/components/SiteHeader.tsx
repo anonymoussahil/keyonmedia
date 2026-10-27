@@ -2,6 +2,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import {
   AppBar,
@@ -100,71 +101,33 @@ export default function SiteHeader() {
             justifyContent: 'space-between',
           }}
         >
-          {/* Brand */}
           <Box
-            component={Link}
-            href="/"
-            aria-label="KeyOn Media home"
-            onClick={closeDesktop}
-            sx={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 1.3,
-              color: 'inherit',
-              textDecoration: 'none',
-              flexShrink: 0,
-            }}
-          >
-            <Box
-              sx={{
-                width: 43,
-                height: 43,
-                bgcolor: 'primary.main',
-                color: 'white',
-                display: 'grid',
-                placeItems: 'center',
-                borderRadius: '13px',
-                fontFamily: 'Manrope, sans-serif',
-                fontWeight: 800,
-                fontSize: 28,
-                letterSpacing: '-3px',
-                boxShadow: '0 7px 17px rgba(244,119,53,.22)',
-              }}
-            >
-              K
-              <span
-                style={{
-                  fontSize: 15,
-                  letterSpacing: 0,
-                  marginLeft: -1,
-                }}
-              >
-                !
-              </span>
-            </Box>
-
-            <Box>
-              <Typography
-                sx={{
-                  font: '800 19px/1 Manrope, sans-serif',
-                  letterSpacing: '-.8px',
-                }}
-              >
-                keyon<span style={{ color: '#F47735' }}>media</span>
-              </Typography>
-              <Typography
-                sx={{
-                  font: '800 7px/1.6 Manrope, sans-serif',
-                  letterSpacing: '2.15px',
-                  color: 'text.secondary',
-                  mt: 0.45,
-                }}
-              >
-                PRIVATE LIMITED
-              </Typography>
-            </Box>
-          </Box>
-
+  component={Link}
+  href="/"
+  aria-label="KeyOn Media home"
+  onClick={closeDesktop}
+  sx={{
+    display: 'inline-flex',
+    alignItems: 'center',
+    flexShrink: 0,
+    textDecoration: 'none',
+    width: { xs: 210, sm: 250, md: 270 },
+  }}
+>
+  <Image
+    src="/images/brand/keyon-media-logo.png"
+    alt="KeyOn Media Private Limited"
+    width={294}
+    height={82}
+    priority
+    style={{
+      display: 'block',
+      width: '100%',
+      height: 'auto',
+      objectFit: 'contain',
+    }}
+  />
+</Box>
           {/* Desktop navigation */}
           <Stack
             direction="row"
